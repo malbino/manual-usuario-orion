@@ -27,18 +27,18 @@
                   ><img
                     alt="Logo Orion"
                     src="./images/logV.png"
-                    style="height: 80px;"
+                    style="height: 80px"
                 /></a>
               </div>
-              <div style="height: 1px;"></div>
+              <div style="height: 1px"></div>
 
               <h1>
                 ORION - Sistema de información para institutos técnicos y
                 tecnológicos de Bolivia
               </h1>
-              <div class="versionInfo">Version 2021</div>
-              <div style="height: 1px;"></div>
-              <div style="clear: left;"></div>
+              <div class="versionInfo">Version 2023</div>
+              <div style="height: 1px"></div>
+              <div style="clear: left"></div>
             </div>
           </div>
         </div>
@@ -59,14 +59,17 @@
                   <ul>
                     
                     <li><a href="iniciar_sesion.html">Iniciar sesión</a></li>
+                                  
                     <h4>Administrador</h4>
                     <li><a href="instituto.html">Instituto</a></li>
                     <li><a href="empleados.html">Empleados</a></li>
+                    <li><a href="empresa.html">Empresas </a> </li>
                     <li><a href="usuarios.html">Usuarios</a></li>
                     <h4>Planes de Estudio</h4>
                     <li><a href="campus.html">Campus</a></li>
                     <li><a href="carreras.html">Carreras</a></li>
                     <li><a href="materias.html">Materias</a></li>
+                    <li><a href="pasantias.html">Pasantias</a></li>
                     <h4>Gestiónes Académicas</h4>
                     <li>
                       <a href="calendario-academico.html"
@@ -79,13 +82,21 @@
                       </a>
                     </li>
                     <li><a href="grupos.html">Grupos</a></li>
+                    <li><a href="gruppasantias.html">Grupo Pasantia</a></li>
                     <h4>Horarios</h4>
                     <li>
                       <a href="asignacion-docente.html">Asignación Docente</a>
                     </li>
+                    <h4>Admisiones</h4>
+                    <li>
+                      <a href="postulantes.html">Postulantes</a>
+                    </li>
                     <h4>Inscripciónes</h4>
                     <li>
                       <a href="estudiante-nuevo.html">Estudiante Nuevo</a>
+                    </li>
+                    <li>
+                      <a href="estudiantepos-nuevo.html">Estudiante Nuevo Postulación</a>
                     </li>
                     <li>
                       <a href="estudiante-regular.html">Estudiante Regular</a>
@@ -96,9 +107,16 @@
                     <li>
                       <a href="inscripcion-manual.html">Inscripción Manual</a>
                     </li>
+                    <li>
+                      <a href="inscritos.html">Inscritos</a>
+                    </li>
+                    <h4>Pasantias</h4>
+                    <li><a href="inscripcion_pas.html">Inscripción Pasantia</a></li>
+                    <li><a href="pasantia.html">Pasantia</a></li>
                     <h4>Pagos</h4>
-                    <li><a href="nuevo-pago.html">Nuevo Pago</a></li>
-                    <li><a href="anular-pago.html">Anular Pago</a></li>
+                    <li><a href="nuevo_pago_post.html">Nuevo Pago Postulante</a></li>
+                    <li><a href="nuevo_pago.html">Nuevo Pago</a></li>
+                    <li><a href="pago-anular.html">Pagos</a></li>
                     <h4>File Estudiante</h4>
                     <li>
                       <a href="historial-academico.html">Historial Academico</a>
@@ -107,24 +125,24 @@
                       <a href="historial-economico.html">Historial Económico</a>
                     </li>
                     <li><a href="estudiantes.html">Estudiantes</a></li>
+                    <h4>Registro de Notas</h4>
+                    <li><a href="registro-primerp.html">Primer Parcial</a></li>
+                    <li><a href="registro-primerp.html">Segundo Parcial</a></li>
+                    <li><a href="registro-primerp.html">Tercer Parcial</a></li>
+                    <li><a href="registro-primerp.html">Cuarto Parcial</a></li>
+                    <li><a href="prueba_recup.html">Prueba de Recuperación</a></li>
                     <h4>Reportes</h4>
+                    <li><a href="reportes.html">Dashboard</a></li>
                     <li>
-                      <a href="malla-curricular.html">Malla Curricular</a>
+                      <a href="reportes_malla.html">Malla Curricular</a>
                     </li>
-                    <li>
-                      <a href="libro-inscripcion.html">Libro de Inscripción</a>
-                    </li>
-                    <li>
-                      <a href="reporte-historial-academico.html">Historial Académico</a>
-                    </li>
-                    <li>
-                      <a href="reporte-historial-economico.html">Historial Económico</a>
-                    </li>
-                    <li>
-                      <a href="centralizador-calificaciones.html"
-                        >Centralizador Calificaciones</a
-                      >
-                    </li>
+                    <li><a href="reportes_ins_post.html">Inscripciones</a></li>
+                    <li><a href="reportes_pas_ins.html">Pasantias</a></li>
+                    <li><a href="reportes_pag_historial.html">Pagos</a></li>
+                    <li><a href="reportes_nots_boletin.html">Notas</a></li>
+                    <li><a href="reportes_nots_historiala.html">Historial Académico</a></li>
+                    <li><a href="reportes_nots_centralizador.html">Centralizador</a></li>
+                  </ul>
                   </ul>
                 </div>
               </nav>
@@ -132,119 +150,31 @@
           </div>
           <div id="mainRight">
             <div id="content">
-              <h2>Gestionar Campus</h2>
-              <h3 id="Manual_de_Usuario_de_Argos">Presentacion</h3>
+              <h2>Campus</h2>
+              <p> Un campus es el conjunto de terrenos y/o edificios que pertenece a un instituto. El instituto puede tener uno o más  campus ubicados en diferentes direcciones.</p>
               <div class="text">
                 <img
                   class="capturas"
                   src="images/campus/campus.png"
                   alt=""
-                  
                 />
-                <p class="instrucciones">
-                  <strong>1.- </strong>Clic en "Planes de Estudio"
-                </p>
-                <p class="instrucciones">
-                  <strong>2.- </strong>Clic en "Campus"
-                </p>
-                <hr />
+              </div>  
+              <h2>Nuevo Campus</h2>
+              <p>Registrar un nuevo campus cuando el instituto es nuevo en el uso del sistema o si se tiene una sucursal. </p>
+              <div>
                 <img
                   class="capturas"
                   src="images/campus/campus1.png"
                   alt=""
-                  
                 />
-                <p class="instrucciones">
-                  <strong>1.- </strong>Clic en "Nuevo" crear nuevo campus.
-                </p>
-                <p class="instrucciones">
-                  <strong>2.- </strong>Clic en "Actualizar" para poder re-cargar
-                  los datos en la tabla
-                </p>
-                <p class="instrucciones">
-                  <strong>3.- </strong>Icono de rueda de Opciones (Filtrar,
-                  Exportar)
-                </p>
-                <p class="instrucciones">
-                  <strong>4.- </strong>Icono de editar , para modificar los
-                  valores de los campos
-                </p>
-              </div>
-              <h3>Crear Nuevo Campus</h3>
-              <div class="text">
-                <img class="capturas" src="images/campus/campus2.png" alt="" />
-                <p class="instrucciones">
-                  <strong>1.- </strong>Ingrese el nombre del Campus
-                </p>
-                <p class="instrucciones">
-                  <strong>2.- </strong>Ingrese las Sucursal
-                </p>
-                <p class="instrucciones">
-                  <strong>3.- </strong>Ingrese la Dirección
-                </p>
-                <p class="instrucciones">
-                  <strong>4.- </strong>Ingres el numero Teléfonico
-                </p>
-                <p class="instrucciones">
-                  <strong>1.- </strong>Clic en "Guardar" para grabar los datos
-                </p>
-                <p class="instrucciones">
-                  <strong>2.- </strong>Clic en "Cancelar" para descartar el registro
-                </p>
-              </div>
-              <h3>Editar Campus </h3>
-              <div class="text">
-                <img
-                  class="capturas"
-                  src="images/campus/campus3.png"
-                  alt=""
-                />
-                <p class="instrucciones">
-                  <strong>1.- </strong>Modifique los campos requeridos a cambios
-                </p>
-                <p class="instrucciones">
-                  <strong>2.- </strong>Clic en "Guardar" para grabar los cambios
-                </p>
-              </div>
-              <h3>Opciones de Campus</h3>
-              <div class="text">
-                <img
-                  class="capturas"
-                  src="images/empleados/empleados6.png"
-                  alt=""
-                />
-                <p class="instrucciones">
-                  <strong>1.- </strong> Clic en "Opciones" y desplega un menu
-                </p>
-                <p class="instrucciones">
-                  <strong>2.- </strong> Clic en "Añadir Filtro", aparece una
-                  barra de busqueda en el cual colocamos el campo por el cual
-                  deseemos buscar, sin espacios
-                  despues del campo y presionamos enter o clic en la lupa.
-                </p>
-                <img
-                  class="capturas"
-                  src="images/empleados/empleados7.png"
-                  alt=""
-                />
-                <p class="instrucciones">
-                  <strong>3.- </strong> Clic en "Exportar", como su nombre
-                  indica exporta todos los campus en libro de excel, el
-                  archivo estara en su carpeta de descargas.
-                </p>
-                <img
-                  class="capturas"
-                  src="images/campus/campus4.png"
-                  alt=""
-                />
-              </div>
+              </div>                                  
             </div>
           </div>
         </div>
       </div>
+      <footer>
+        <div id="footer">Copyright &copy; 2023, ORION</div>
+      </footer>
     </div>
-    <footer>
-      <div id="footer">Copyright &copy; 2021, ORION</div>
-    </footer>
   </body>
 </html>

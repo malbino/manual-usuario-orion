@@ -36,7 +36,7 @@
                 ORION - Sistema de información para institutos técnicos y
                 tecnológicos de Bolivia
               </h1>
-              <div class="versionInfo">Version 2021</div>
+              <div class="versionInfo">Version 2023</div>
               <div style="height: 1px"></div>
               <div style="clear: left"></div>
             </div>
@@ -59,14 +59,17 @@
                   <ul>
                     
                     <li><a href="iniciar_sesion.html">Iniciar sesión</a></li>
+                                  
                     <h4>Administrador</h4>
                     <li><a href="instituto.html">Instituto</a></li>
                     <li><a href="empleados.html">Empleados</a></li>
+                    <li><a href="empresa.html">Empresas </a> </li>
                     <li><a href="usuarios.html">Usuarios</a></li>
                     <h4>Planes de Estudio</h4>
                     <li><a href="campus.html">Campus</a></li>
                     <li><a href="carreras.html">Carreras</a></li>
                     <li><a href="materias.html">Materias</a></li>
+                    <li><a href="pasantias.html">Pasantias</a></li>
                     <h4>Gestiónes Académicas</h4>
                     <li>
                       <a href="calendario-academico.html"
@@ -79,13 +82,21 @@
                       </a>
                     </li>
                     <li><a href="grupos.html">Grupos</a></li>
+                    <li><a href="gruppasantias.html">Grupo Pasantia</a></li>
                     <h4>Horarios</h4>
                     <li>
                       <a href="asignacion-docente.html">Asignación Docente</a>
                     </li>
+                    <h4>Admisiones</h4>
+                    <li>
+                      <a href="postulantes.html">Postulantes</a>
+                    </li>
                     <h4>Inscripciónes</h4>
                     <li>
                       <a href="estudiante-nuevo.html">Estudiante Nuevo</a>
+                    </li>
+                    <li>
+                      <a href="estudiantepos-nuevo.html">Estudiante Nuevo Postulación</a>
                     </li>
                     <li>
                       <a href="estudiante-regular.html">Estudiante Regular</a>
@@ -96,9 +107,16 @@
                     <li>
                       <a href="inscripcion-manual.html">Inscripción Manual</a>
                     </li>
+                    <li>
+                      <a href="inscritos.html">Inscritos</a>
+                    </li>
+                    <h4>Pasantias</h4>
+                    <li><a href="inscripcion_pas.html">Inscripción Pasantia</a></li>
+                    <li><a href="pasantia.html">Pasantia</a></li>
                     <h4>Pagos</h4>
-                    <li><a href="nuevo-pago.html">Nuevo Pago</a></li>
-                    <li><a href="anular-pago.html">Anular Pago</a></li>
+                    <li><a href="nuevo_pago_post.html">Nuevo Pago Postulante</a></li>
+                    <li><a href="nuevo_pago.html">Nuevo Pago</a></li>
+                    <li><a href="pago-anular.html">Pagos</a></li>
                     <h4>File Estudiante</h4>
                     <li>
                       <a href="historial-academico.html">Historial Academico</a>
@@ -107,24 +125,24 @@
                       <a href="historial-economico.html">Historial Económico</a>
                     </li>
                     <li><a href="estudiantes.html">Estudiantes</a></li>
+                    <h4>Registro de Notas</h4>
+                    <li><a href="registro-primerp.html">Primer Parcial</a></li>
+                    <li><a href="registro-primerp.html">Segundo Parcial</a></li>
+                    <li><a href="registro-primerp.html">Tercer Parcial</a></li>
+                    <li><a href="registro-primerp.html">Cuarto Parcial</a></li>
+                    <li><a href="prueba_recup.html">Prueba de Recuperación</a></li>
                     <h4>Reportes</h4>
+                    <li><a href="reportes.html">Dashboard</a></li>
                     <li>
-                      <a href="malla-curricular.html">Malla Curricular</a>
+                      <a href="reportes_malla.html">Malla Curricular</a>
                     </li>
-                    <li>
-                      <a href="libro-inscripcion.html">Libro de Inscripción</a>
-                    </li>
-                    <li>
-                      <a href="reporte-historial-academico.html">Historial Académico</a>
-                    </li>
-                    <li>
-                      <a href="reporte-historial-economico.html">Historial Económico</a>
-                    </li>
-                    <li>
-                      <a href="centralizador-calificaciones.html"
-                        >Centralizador Calificaciones</a
-                      >
-                    </li>
+                    <li><a href="reportes_ins_post.html">Inscripciones</a></li>
+                    <li><a href="reportes_pas_ins.html">Pasantias</a></li>
+                    <li><a href="reportes_pag_historial.html">Pagos</a></li>
+                    <li><a href="reportes_nots_boletin.html">Notas</a></li>
+                    <li><a href="reportes_nots_historiala.html">Historial Académico</a></li>
+                    <li><a href="reportes_nots_centralizador.html">Centralizador</a></li>
+                  </ul>
                   </ul>
                 </div>
               </nav>
@@ -132,185 +150,35 @@
           </div>
           <div id="mainRight">
             <div id="content">
-              <h2>Gestionar Empleados</h2>
-              <h3 id="Manual_de_Usuario_de_Argos">Presentacion</h3>
+              <h2>Empleados</h2>
+              <p> Se hace referencia como empleado a la persona/funcionario que cumple un rol dentro el instituto que no sea estudiante. Esta opción permite 
+                registrar  y visualizar los datos del empleado.
+              </p>
               <div class="text">
                 <img
                   class="capturas"
                   src="images/empleados/empleados.png"
                   alt=""
-                  
                 />
-
-                <p class="instrucciones">
-                  <strong>1.- </strong>Clic en "Administrador"
-                </p>
-                <p class="instrucciones">
-                  <strong>2.- </strong>Clic en "Empleados"
-                </p>
-              </div>
-              <h3 id="Manual_de_Usuario_de_Argos">Como Registrar Empleados</h3>
-              <div class="text">
+              </div>  
+              <h2>Nuevo Empleado</h2>
+              <div>
                 <img
                   class="capturas"
                   src="images/empleados/empleados1.png"
                   alt=""
-                  
                 />
-
-                <p class="instrucciones">
-                  <strong>1.- </strong>Clic en "Nuevo" para registrar nuevo
-                  empleado
-                </p>
-                <hr />
-                <img
-                  class="capturas"
-                  src="images/empleados/empleados2.png"
-                  alt=""
-                  
-                />
-
-                <p class="instrucciones">
-                  <strong>1.- </strong>Ingrese el nombre del empleado Ej:
-                  Alberto
-                </p>
-                <p class="instrucciones">
-                  <strong>2.- </strong>Ingrese el primer apellido del empleado
-                  Ej: Argandoña
-                </p>
-                <p class="instrucciones">
-                  <strong>3.- </strong>Ingrese el segundo apellido del empleado
-                  Ej: Arcienegas
-                </p>
-                <p class="instrucciones">
-                  <strong>4.- </strong>Ingrese el DNI (C.I) del empleado Ej:
-                  41112546
-                </p>
-                <p class="instrucciones">
-                  <strong>5.- </strong>Seleccione el lugar de expedición del DNI
-                  (C.I) Ej: CH (Chuquisaca)
-                </p>
-                <p class="instrucciones">
-                  <strong>6.- </strong>Ingrese la fecha de nacimiento del
-                  empleado Ej: 11/10/1990
-                </p>
-                <p class="instrucciones">
-                  <strong>7.- </strong>Ingrese lugar de nacimiento del empleado
-                  Ej: Chuquisaca
-                </p>
-                <p class="instrucciones">
-                  <strong>8.- </strong>Ingrese la nacionalidad del empleado Ej:
-                  Boliviana
-                </p>
-                <p class="instrucciones">
-                  <strong>9.- </strong>Seleccione el sexo del empleado Ej:
-                  MASCULINO
-                </p>
-                <p class="instrucciones">
-                  <strong>10.- </strong>Ingrese la dirección del empleado Ej:
-                  Calle Rosas del carpi #1456
-                </p>
-                <p class="instrucciones">
-                  <strong>11.- </strong>Ingrese el numero de telefono del
-                  empleado Ej: 4213658
-                </p>
-                <p class="instrucciones">
-                  <strong>12.- </strong>Ingrese el numero de celular del
-                  empleado Ej: 71112536
-                </p>
-                <p class="instrucciones">
-                  <strong>13.- </strong>Ingrese el correo del empleado Ej:
-                  betito@gmail.com
-                </p>
-                <p class="instrucciones">
-                  <strong>14.- </strong>Ingrese la abreviatura de la profesión
-                  del empleado Ej: Lic.
-                </p>
-                <p class="instrucciones">
-                  <strong>15.- </strong>Ingrese el codigo
-                </p>
-                <p class="instrucciones">
-                  <strong>16.- </strong>Clic en "Guardar" para registrar los
-                  datos
-                </p>
-                <p class="instrucciones">
-                  <strong>17.- </strong>Clic en "Cancelar" para no registrar los
-                  datos llenados
-                </p>
-                <p>
-                  <i>Nota .- </i>Todos los campos con <strong>*</strong> son
-                  campos obligatorios a llenar
-                </p>
-                <hr>
-              <img
-                  class="capturas"
-                  src="images/empleados/empleados3.png"
-                  alt=""
-                />
-                <p class="instrucciones">
-                  <strong>1.- </strong> Clic en el boton "Actualizar" si en caso no aparace en el registro el dato guardado
-                </p>
-              </div>
-              
-              <h3>Como Editar Empleado</h3>
-              <div class="text">
-                <img
-                  class="capturas"
-                  src="images/empleados/empleados4.png"
-                  alt=""
-                />
-                <p class="instrucciones">
-                  <strong>1.- </strong> Clic en "Editar" para modificar datos registrados
-                </p>
-                <hr>
-                <img
-                  class="capturas"
-                  src="images/empleados/empleados5.png"
-                  alt=""
-                />
-                <p class="instrucciones">
-                  <strong>1.- </strong> Cambie los valores de datos requeridos a modificar
-                </p>
-                <p class="instrucciones">
-                  <strong>2.- </strong> Clic en "Guardar", para guardar datos modificados
-                </p>
-              </div>
-              <h3>Opciones de Empleado</h3>
-              <div class="text">
-                <img
-                  class="capturas"
-                  src="images/empleados/empleados6.png"
-                  alt=""
-                />
-                <p class="instrucciones">
-                  <strong>1.- </strong> Clic en "Opciones" y desplega un menu
-                </p>                
-                <p class="instrucciones">
-                  <strong>2.- </strong> Clic en "Añadir Filtro", aparece una barra de busqueda en el cual colocamos el 
-                  campo por el cual deseemos buscar ej: apellio, dombre, dni, etc. 
-                  sin espacios despues del campo y presionamos enter o clic en la lupa.
-                </p>
-                <img
-                  class="capturas"
-                  src="images/empleados/empleados7.png"
-                  alt=""
-                />
-                <p class="instrucciones">
-                  <strong>3.- </strong> Clic en "Exportar", como su nombre indica exporta todos los empleados en libro 
-                  de excel, el archivo estara en su carpeta de descargas.
-                </p>
-                <img
-                  class="capturas"
-                  src="images/empleados/empleados8.png"
-                  alt=""
-                />
-              </div>
+                <div class="instrucciones">
+                  <li><a href="empleado_edit.html">Editar Empleado</a></li>
+                  <li><a href="empleado_edit.html">Exportar datos de los empleados</a></li>
+                </div>  
+              </div>                                  
             </div>
           </div>
         </div>
       </div>
       <footer>
-        <div id="footer">Copyright &copy; 2021, ORION</div>
+        <div id="footer">Copyright &copy; 2023, ORION</div>
       </footer>
     </div>
   </body>

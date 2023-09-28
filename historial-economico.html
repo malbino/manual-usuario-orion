@@ -27,18 +27,18 @@
                   ><img
                     alt="Logo Orion"
                     src="./images/logV.png"
-                    style="height: 80px;"
+                    style="height: 80px"
                 /></a>
               </div>
-              <div style="height: 1px;"></div>
+              <div style="height: 1px"></div>
 
               <h1>
                 ORION - Sistema de información para institutos técnicos y
                 tecnológicos de Bolivia
               </h1>
-              <div class="versionInfo">Version 2021</div>
-              <div style="height: 1px;"></div>
-              <div style="clear: left;"></div>
+              <div class="versionInfo">Version 2023</div>
+              <div style="height: 1px"></div>
+              <div style="clear: left"></div>
             </div>
           </div>
         </div>
@@ -59,14 +59,17 @@
                   <ul>
                     
                     <li><a href="iniciar_sesion.html">Iniciar sesión</a></li>
+                                  
                     <h4>Administrador</h4>
                     <li><a href="instituto.html">Instituto</a></li>
                     <li><a href="empleados.html">Empleados</a></li>
+                    <li><a href="empresa.html">Empresas </a> </li>
                     <li><a href="usuarios.html">Usuarios</a></li>
                     <h4>Planes de Estudio</h4>
                     <li><a href="campus.html">Campus</a></li>
                     <li><a href="carreras.html">Carreras</a></li>
                     <li><a href="materias.html">Materias</a></li>
+                    <li><a href="pasantias.html">Pasantias</a></li>
                     <h4>Gestiónes Académicas</h4>
                     <li>
                       <a href="calendario-academico.html"
@@ -79,13 +82,21 @@
                       </a>
                     </li>
                     <li><a href="grupos.html">Grupos</a></li>
+                    <li><a href="gruppasantias.html">Grupo Pasantia</a></li>
                     <h4>Horarios</h4>
                     <li>
                       <a href="asignacion-docente.html">Asignación Docente</a>
                     </li>
+                    <h4>Admisiones</h4>
+                    <li>
+                      <a href="postulantes.html">Postulantes</a>
+                    </li>
                     <h4>Inscripciónes</h4>
                     <li>
                       <a href="estudiante-nuevo.html">Estudiante Nuevo</a>
+                    </li>
+                    <li>
+                      <a href="estudiantepos-nuevo.html">Estudiante Nuevo Postulación</a>
                     </li>
                     <li>
                       <a href="estudiante-regular.html">Estudiante Regular</a>
@@ -96,9 +107,16 @@
                     <li>
                       <a href="inscripcion-manual.html">Inscripción Manual</a>
                     </li>
+                    <li>
+                      <a href="inscritos.html">Inscritos</a>
+                    </li>
+                    <h4>Pasantias</h4>
+                    <li><a href="inscripcion_pas.html">Inscripción Pasantia</a></li>
+                    <li><a href="pasantia.html">Pasantia</a></li>
                     <h4>Pagos</h4>
-                    <li><a href="nuevo-pago.html">Nuevo Pago</a></li>
-                    <li><a href="anular-pago.html">Anular Pago</a></li>
+                    <li><a href="nuevo_pago_post.html">Nuevo Pago Postulante</a></li>
+                    <li><a href="nuevo_pago.html">Nuevo Pago</a></li>
+                    <li><a href="pago-anular.html">Pagos</a></li>
                     <h4>File Estudiante</h4>
                     <li>
                       <a href="historial-academico.html">Historial Academico</a>
@@ -107,24 +125,24 @@
                       <a href="historial-economico.html">Historial Económico</a>
                     </li>
                     <li><a href="estudiantes.html">Estudiantes</a></li>
+                    <h4>Registro de Notas</h4>
+                    <li><a href="registro-primerp.html">Primer Parcial</a></li>
+                    <li><a href="registro-primerp.html">Segundo Parcial</a></li>
+                    <li><a href="registro-primerp.html">Tercer Parcial</a></li>
+                    <li><a href="registro-primerp.html">Cuarto Parcial</a></li>
+                    <li><a href="prueba_recup.html">Prueba de Recuperación</a></li>
                     <h4>Reportes</h4>
+                    <li><a href="reportes.html">Dashboard</a></li>
                     <li>
-                      <a href="malla-curricular.html">Malla Curricular</a>
+                      <a href="reportes_malla.html">Malla Curricular</a>
                     </li>
-                    <li>
-                      <a href="libro-inscripcion.html">Libro de Inscripción</a>
-                    </li>
-                    <li>
-                      <a href="reporte-historial-academico.html">Historial Académico</a>
-                    </li>
-                    <li>
-                      <a href="reporte-historial-economico.html">Historial Económico</a>
-                    </li>
-                    <li>
-                      <a href="centralizador-calificaciones.html"
-                        >Centralizador Calificaciones</a
-                      >
-                    </li>
+                    <li><a href="reportes_ins_post.html">Inscripciones</a></li>
+                    <li><a href="reportes_pas_ins.html">Pasantias</a></li>
+                    <li><a href="reportes_pag_historial.html">Pagos</a></li>
+                    <li><a href="reportes_nots_boletin.html">Notas</a></li>
+                    <li><a href="reportes_nots_historiala.html">Historial Académico</a></li>
+                    <li><a href="reportes_nots_centralizador.html">Centralizador</a></li>
+                  </ul>
                   </ul>
                 </div>
               </nav>
@@ -132,56 +150,24 @@
           </div>
           <div id="mainRight">
             <div id="content">
-              <h2>Gestionar Historial Económico</h2>
-              <h3 id="Manual_de_Usuario_de_Argos">Presentacion</h3>
+              <h2>Historial Económico</h2>
+              <p> Esta opción permite ver los pagos que realizo el estudiante seleccionado. La opción solo es visible a determinados usuarios.
+              </p>
               <div class="text">
                 <img
                   class="capturas"
                   src="images/historiale/historiale.png"
                   alt=""
                 />
-                <p class="instrucciones">
-                  <strong>1.- </strong>Clic en "File Estudiante"
-                </p>
-                <p class="instrucciones">
-                  <strong>2.- </strong>Clic en "Historial Económico"
-                </p>
               </div>
-              <h3>Historial Económico</h3>
-              <div class="text">
-                <img
-                  class="capturas"
-                  src="images/historiale/historiale1.png"
-                  alt=""
-                />
-                <p class="instrucciones">
-                  <strong>1.- </strong>Ingrese el nombre o apellido para el
-                  filtrar.
-                </p>
-                <p class="instrucciones">
-                  <strong>2.- </strong>Seleccione la carrera.
-                </p>
-                <p class="instrucciones">
-                  <strong>3.- </strong>Clic en el boton "Actualizar", para
-                  Actualizarla tabla de datos.
-                </p>
-                <p class="instrucciones">
-                  <strong>4.- </strong>Clic en el boton "Opciones", para
-                  exportar el registro a excel.
-                </p>
-                <img
-                  class="capturas"
-                  src="images/historiale/historiale2.png"
-                  alt=""
-                />
-              </div>
+                             
             </div>
           </div>
         </div>
       </div>
+      <footer>
+        <div id="footer">Copyright &copy; 2023, ORION</div>
+      </footer>
     </div>
-    <footer>
-      <div id="footer">Copyright &copy; 2021, ORION</div>
-    </footer>
   </body>
 </html>
